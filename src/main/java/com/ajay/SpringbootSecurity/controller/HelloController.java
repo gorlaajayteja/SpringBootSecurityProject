@@ -10,6 +10,7 @@ public class HelloController {
 @GetMapping("/")
     public String greet(HttpServletRequest request) {
         return "Welcome to Telusko "+request.getSession().getId();
+	//Just checking the commit message
     }
 
 }
